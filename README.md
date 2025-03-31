@@ -1,0 +1,1 @@
+# fs-favorite-icon-toggler
