@@ -1,5 +1,7 @@
 # fs-favorite-icon-toggler
 
+In this lab, you'll build a favorite icon toggler by utilizing JavaScript click events.
+
 Build a Favorite Icon Toggler
 Build an app that is functionally similar to this example project. Try not to copy the example project, give it your own personal style.
 
