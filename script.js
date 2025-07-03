@@ -1,13 +1,13 @@
-const spans = document.querySelectorAll(".favorite-icon");
-
-spans.forEach((span) => {
-  span.addEventListener("click", function () {
-    if (span.classList.contains("filled")) {
-      span.innerHTML = "&#9825;";
-      span.classList.remove("filled");
+const buttons = document.querySelectorAll(".favorite-icon");
+console.log(buttons);
+buttons.forEach(button => {
+  button.addEventListener("click", function() {
+    if (button.classList.contains("filled")) {
+      button.innerHTML = "&#9825;"
+      button.classList.remove("filled");
     } else {
-      span.classList.add("filled");
-      span.innerHTML = "&#10084";
+      button.classList.add("filled");
+      button.innerHTML = "&#10084";
     }
-  });
+  })
 });
